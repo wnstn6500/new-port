@@ -180,6 +180,7 @@ a {
 .about .about__wrapper{
   display: flex;
   justify-content: center;
+  width: 100%;
   
 }
 .about .about__wrapper .about__img{
@@ -444,6 +445,9 @@ a {
     transition: 0.3s;
     overflow: hidden;    
   }
+  .visual .inner .black-han-sans-regular{
+    font-size: 55px;
+  }
   header nav.active {
     height: 100%;
     opacity: 1;
@@ -491,6 +495,9 @@ a {
   .about .about__wrapper .about__text{
     width: 100%;
   }
+  #about .inner{
+    padding-bottom: -100px; 
+  }
   .overwatch img{
     width: 100%;
   }
@@ -498,7 +505,7 @@ a {
     width: 100%;
   }
   .skill_list{
-    margin-bottom: -200px;
+    margin-bottom: 100px;
   }
   }
 
