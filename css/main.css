@@ -118,6 +118,7 @@ a {
   object-fit: cover;
   z-index: -10;
   position: fixed;
+  pointer-events: none;
 }
 .visual > .inner{
   height: 100vh;
@@ -174,6 +175,7 @@ a {
   object-fit: cover;
   z-index: -10;
   position: absolute;
+  pointer-events: none;
 }
 .about .about__wrapper{
   display: flex;
